@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80845C361C6CADD800D17839 /* iCade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80845C351C6CADD800D17839 /* iCade.swift */; };
 		80E253581C56B482008D7570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E253571C56B482008D7570 /* AppDelegate.swift */; };
 		80E2535A1C56B482008D7570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E253591C56B482008D7570 /* ViewController.swift */; };
 		80E2535D1C56B482008D7570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E2535B1C56B482008D7570 /* Main.storyboard */; };
 		80E2535F1C56B482008D7570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E2535E1C56B482008D7570 /* Assets.xcassets */; };
 		80E253621C56B482008D7570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E253601C56B482008D7570 /* LaunchScreen.storyboard */; };
-		80E2536A1C56B4BF008D7570 /* iCade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E253691C56B4BF008D7570 /* iCade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80845C351C6CADD800D17839 /* iCade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCade.swift; sourceTree = "<group>"; };
 		80E253541C56B482008D7570 /* iCadeSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCadeSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E253571C56B482008D7570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80E253591C56B482008D7570 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		80E2535E1C56B482008D7570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80E253611C56B482008D7570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80E253631C56B482008D7570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80E253691C56B4BF008D7570 /* iCade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iCade.swift; path = iCadeSwiftExample/iCade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		80E2534B1C56B482008D7570 = {
 			isa = PBXGroup;
 			children = (
-				80E253691C56B4BF008D7570 /* iCade.swift */,
+				80845C351C6CADD800D17839 /* iCade.swift */,
 				80E253561C56B482008D7570 /* iCadeSwiftExample */,
 				80E253551C56B482008D7570 /* Products */,
 			);
@@ -140,7 +140,7 @@
 			files = (
 				80E2535A1C56B482008D7570 /* ViewController.swift in Sources */,
 				80E253581C56B482008D7570 /* AppDelegate.swift in Sources */,
-				80E2536A1C56B4BF008D7570 /* iCade.swift in Sources */,
+				80845C361C6CADD800D17839 /* iCade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
